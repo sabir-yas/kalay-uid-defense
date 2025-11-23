@@ -4,19 +4,19 @@ A comprehensive security framework demonstrating layered defense against UID imp
 
 ## Features
 
-- ** AuthKey Authentication** - Cryptographic device verification
-- ** Moving Target Defense** - Dynamic UID decoys to trap attackers
-- ** Real-time Security Monitoring** - Live attack detection and alerting
-- ** Attack Simulation** - Realistic UID impersonation attack testing
-- ** Layered Security** - Combined defenses for maximum protection
+- **AuthKey Authentication** - Cryptographic device verification
+- **Moving Target Defense** - Dynamic UID decoys to trap attackers
+- **Real-time Security Monitoring** - Live attack detection and alerting
+- **Attack Simulation** - Realistic UID impersonation attack testing
+- **Layered Security** - Combined defenses for maximum protection
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Flask
 - Requests library
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 ```
@@ -68,7 +68,7 @@ python3 attacker.py
                      └──────────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 kalay-uid-defense/
@@ -100,7 +100,7 @@ kalay-uid-defense/
 - Owner change detection and alerting
 - Comprehensive security status reporting
 
-## 🛠️ Usage Examples
+## Usage Examples
 
 ### Enable Full Protection
 ```
@@ -136,7 +136,7 @@ python3 security_controller.py traps
 python3 security_controller.py reset
 ```
 
-## 📊 Expected Output
+## Expected Output
 
 ### Security Status
 ```
@@ -163,7 +163,7 @@ Targets Attempted: 5
 🛡️ SUCCESS: All attacks prevented by security defenses!
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Emulator (`app.py`)
 - `POST /register` - Device registration
@@ -176,7 +176,7 @@ Targets Attempted: 5
 - Continuous monitoring of registration patterns
 - Real-time alerting for suspicious activities
 
-## 🎮 Security Controller Commands
+## Security Controller Commands
 
 | Command             | Description                       |
 |--------------------|-----------------------------------|
@@ -189,7 +189,7 @@ Targets Attempted: 5
 | `traps`            | Show MTD trap status              |
 | `reset`            | Reset entire system               |
 
-## 🔬 Research Value
+## Research Value
 
 This project demonstrates:
 - **Layered security** for IoT devices
@@ -197,7 +197,7 @@ This project demonstrates:
 - **UID impersonation** attack mitigation
 - **Real-time security monitoring** techniques
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -214,14 +214,6 @@ netstat -tulpn | grep 5000
 **Attack simulation not working:**
 - Verify defenses are enabled: `python3 security_controller.py status`
 - Check emulator is running on port 5000
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
 
 ## License
 

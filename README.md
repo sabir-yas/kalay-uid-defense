@@ -72,14 +72,18 @@ python3 attacker.py
 
 ```
 kalay-uid-defense/
-├── app.py                    # Main emulator with AuthKey + MTD
-├── security_monitor.py       # Real-time security monitoring
-├── security_controller.py    # Security management CLI
-├── client.py                 # Legitimate device client
-├── attacker.py               # UID impersonation attacker
+├── emulator
+│  ├──app.py # Main emulator with AuthKey + MTD
+│  ├──uids.json             # Device database
+│  └──spoofed_uids.json     # MTD decoy database
+├── monitor                 
+│  ├── security_monitor.py       # Real-time security monitoring
+├── clients 
+│  ├── device_client.py                 # Legitimate device client
+├── attacks
+│  ├──re_register.py               # UID impersonation attacker
 ├── utilities/
-│   ├── uids.json             # Device database
-│   └── spoofed_uids.json     # MTD decoy database
+│   ├── security_controller.py # Security management CLI
 └── README.md
 ```
 
